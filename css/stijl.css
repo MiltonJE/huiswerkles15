@@ -1,0 +1,128 @@
+body{
+  background-color: red;
+  padding: 5px
+}
+
+header{
+  background-color: grey;
+  height: 140px;
+  padding: 5px;
+}
+
+h1{
+  color: white;
+  padding-top: 10px;
+  margin-left: 770px;
+}
+
+ul{
+  margin-left: 730px;
+}
+
+ul a{
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-left: 2px solid green;
+  border-right: 1px solid green;
+  background-color: olive;
+}
+
+li:hover{
+  background-color: green;
+  border-style: none;
+}
+
+li:active{
+  background-color: red;
+}
+
+p#inleiding{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  color: white;
+}
+
+img{
+  float: left;
+  width: 240px;
+  height: 250px;
+  margin-right: 20px;
+  border: 2px solid green;
+  border-radius: 20px;
+}
+
+.footer{
+  background-color: grey;
+  height: 65px;
+  position: absolute;
+  bottom: 0;
+  width: 1900px;
+}
+
+footer p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  margin-left: 750px;
+}
+
+form{
+  margin-top: 250px;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px grey;
+}
+
+button{
+  background-color: olive;
+  color: white;
+}
+
+button:hover{
+  background-color: green;
+}
+
+button:active{
+  background-color: red;
+  border-color: white;
+}
+table{
+  border-collapse: separate;
+}
+
+th, td{
+  padding: 10px 5px;
+  background-color: olive;
+}
+
+td{
+  color: white;
+  background-color: green;
+}
+#tabel{
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
